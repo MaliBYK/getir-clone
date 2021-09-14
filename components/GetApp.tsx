@@ -4,7 +4,7 @@ const GetApp = () => {
   return (
     <section className='bg-get-app-bg min-h-[312px] rounded-md mt-8 bg-primary flex justify-between mb-16 pt-5'>
       <div className='flex flex-col text-white pl-10 my-auto'>
-        <h2 className='text-[26px] font-bold mb-3 '>Getir'i indirin!</h2>
+        <h2 className='text-[26px] font-bold mb-3 '>{"Getir'i indirin!"}</h2>
         <span className='font-semibold mb-6'>
           İstediğiniz ürünleri dakikalar içinde kapınıza <br /> getirelim.
         </span>
