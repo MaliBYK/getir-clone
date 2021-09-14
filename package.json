@@ -1,0 +1,30 @@
+{
+  "name": "getir-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "watch": "npx tailwindcss -i styles/tailwind.css -o styles/style.css --watch"
+  },
+  "dependencies": {
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-flags-select": "^2.1.2",
+    "react-icons": "^4.2.0",
+    "react-slick": "^0.28.1"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.19",
+    "@types/react-slick": "^0.23.5",
+    "autoprefixer": "^10.3.4",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.9",
+    "typescript": "4.4.2"
+  }
+}
