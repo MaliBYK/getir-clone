@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='container mx-auto py-10 flex flex-col space-y-6'>
         <div className='flex justify-between  '>
           <div className='flex flex-col space-y-2'>
-            <span className='footer-title'>Getir'i indirin!</span>
+            <span className='footer-title'>{"Getir'i indirin!"}</span>
             <img
               className='cursor-pointer w-[160px]'
               src='https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg'
@@ -26,7 +26,7 @@ const Footer = () => {
             />
           </div>
           <div className='footer-menu'>
-            <span className='footer-title'>Getir'i keşfedin</span>
+            <span className='footer-title'>{"Getir'i keşfedin"}</span>
             <span className='footer-link'>Hakkımızda</span>
             <span className='footer-link'>Kariyer</span>
             <span className='footer-link'>İletişim</span>
@@ -52,7 +52,7 @@ const Footer = () => {
         <hr />
         <div className='flex justify-between items-center'>
           <div className='flex space-x-2 text-xs'>
-            <span className='text-gray-500'>{"&#169;"} 2021 Getir</span>
+            <span className='text-gray-500'>&#169; 2021 Getir</span>
             <li className='text-primary cursor-pointer'>
               Bilgi Toplumu Hizmetleri
             </li>
