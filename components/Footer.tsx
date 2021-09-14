@@ -52,7 +52,7 @@ const Footer = () => {
         <hr />
         <div className='flex justify-between items-center'>
           <div className='flex space-x-2 text-xs'>
-            <span className='text-gray-500'>&#169; 2021 Getir</span>
+            <span className='text-gray-500'>{"&#169;"} 2021 Getir</span>
             <li className='text-primary cursor-pointer'>
               Bilgi Toplumu Hizmetleri
             </li>
