@@ -26,11 +26,11 @@
     @apply bg-primary;
   }
   .subtitle {
-    @apply text-sm font-semibold;
+    @apply text-sm font-semibold ml-4 lg:ml-0;
   }
 
   .footer-menu {
-    @apply flex flex-col;
+    @apply flex flex-col w-full md:w-[33%] lg:w-auto m-5;
   }
   .footer-title {
     @apply text-primary  text-lg mb-4;

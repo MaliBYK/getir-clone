@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <footer className='bg-white flex flex-col'>
       <div className='container mx-auto py-10 flex flex-col space-y-6'>
-        <div className='flex justify-between  '>
-          <div className='flex flex-col space-y-2'>
+        <div className='flex justify-between flex-wrap  '>
+          <div className='flex flex-col space-y-2 footer-menu'>
             <span className='footer-title'>{"Getir'i indirin!"}</span>
             <img
               className='cursor-pointer w-[160px]'
@@ -50,24 +50,24 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <div className='flex justify-between items-center'>
-          <div className='flex space-x-2 text-xs'>
+        <div className='flex justify-between flex-col md:flex-row md:space-y-0 space-y-3 items-center'>
+          <div className='flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-2 text-xs'>
             <span className='text-gray-500'>&#169; 2021 Getir</span>
-            <li className='text-primary cursor-pointer'>
+            <li className='inline-block md:list-item text-primary cursor-pointer'>
               Bilgi Toplumu Hizmetleri
             </li>
           </div>
           <div className='flex space-x-3 items-center text-[21px] text-gray-500'>
-            <div className='p-1 rounded-md hover:bg-purple-100  hover:text-primary  transition-all'>
+            <div className='hidden md:block p-1 rounded-md cursor-pointer hover:bg-purple-100  hover:text-primary  transition-all'>
               <SiFacebook />
             </div>
-            <div className='p-1 rounded-md hover:bg-purple-100 hover:text-primary   transition-all'>
+            <div className='hidden md:block p-1 rounded-md cursor-pointer hover:bg-purple-100 hover:text-primary   transition-all'>
               <FaTwitter />
             </div>
-            <div className='p-1 rounded-md hover:bg-purple-100  hover:text-primary transition-all'>
+            <div className='hidden md:block p-1 rounded-md cursor-pointer hover:bg-purple-100  hover:text-primary transition-all'>
               <FaInstagram />
             </div>
-            <div className='flex space-x-2  text-[18px] items-center hover:bg-purple-100  hover:text-primary  transition-all rounded-md border-[1px] p-2'>
+            <div className='flex space-x-2 cursor-pointer  text-[18px] items-center hover:bg-purple-100  hover:text-primary  transition-all rounded-md border-[1px] p-2'>
               <BiGlobe />
               <span className='text-sm'>Türkçe (TR)</span>
             </div>

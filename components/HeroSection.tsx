@@ -46,7 +46,7 @@ const HeroSection: React.FC<Props> = ({ imageURLs }) => {
           />
         </div>
       </Slider>
-      <div className='container absolute left-1/2 -translate-x-1/2 container   h-[305px]  top-1/2 -translate-y-1/2 z-20 flex items-center justify-between'>
+      <div className='container px-8 lg:px-0 absolute left-1/2 -translate-x-1/2 container   h-[305px]  top-1/2 -translate-y-1/2 z-20 flex items-center justify-between'>
         <div className=''>
           <img
             src='https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg'

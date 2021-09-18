@@ -14,7 +14,7 @@ const Favourites = () => {
   return (
     <div className='mt-6'>
       <h3 className='subtitle mb-3'>Favoriler</h3>
-      <div className='grid grid-cols-8'>
+      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-8'>
         {products.length &&
           products.map(({ id, title, image, alt, price }) => (
             <Product

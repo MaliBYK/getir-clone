@@ -10,6 +10,7 @@
     "watch": "npx tailwindcss -i styles/tailwind.css -o styles/style.css --watch"
   },
   "dependencies": {
+    "@react-hook/window-size": "^3.0.7",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",

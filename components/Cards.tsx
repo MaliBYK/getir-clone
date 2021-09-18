@@ -17,7 +17,7 @@ const descriptions = [
 ];
 const Cards = () => {
   return (
-    <section className='grid grid-cols-3 space-x-4 mb-16'>
+    <section className='grid md:grid-cols-3 grid-cols-1 space-y-3 px-3 md:space-y-0 md:px-0  md:space-x-4 mb-16'>
       <Card image={images[0]} title={titles[0]} description={descriptions[0]} />
       <Card image={images[1]} title={titles[1]} description={descriptions[1]} />
       <Card image={images[2]} title={titles[2]} description={descriptions[2]} />
